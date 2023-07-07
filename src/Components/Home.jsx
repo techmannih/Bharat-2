@@ -24,7 +24,8 @@ const Homepage=()=>{
         <div className="room">
   <input  value={value} 
   onChange={(e)=>setValue(e.target.value)} 
-  type="text" placeholder="Enter your room code" required important="true"/>
+  type="text" placeholder="Enter your room code" required important="true"
+  />
      <button  onClick={handleJoin}className="btn btn-primary position-relative text-wrap">Join</button>
 </div>
 </div>
